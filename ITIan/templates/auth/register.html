@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Register{% endblock %}
+{% block content %}
+<h2>Register</h2>
+<form method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" style="background-color:#d61212; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">Register</button>
+</form>
+{% endblock %}

@@ -1,0 +1,160 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e9ecef;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background: rgb(255, 255, 255);
+    padding: 30px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 1200px;
+}
+
+h2 {
+    text-align: center;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.navbar {
+    background: #d61212;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+.btn-main{
+    background-color: #d61212;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px;
+    width: 100px;
+    display: inline-block;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.content
+{
+    text-align: center;
+    margin-top: 20px;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+.table th, .table td {
+    border: 1px solid #000000;
+    padding: 15px;
+    text-align: center;
+}
+
+.table th {
+    background: #000000;
+    color: white;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 10px 5px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+}
+
+.btn-edit {
+    background: #0011ff;
+}
+
+.btn-delete {
+    background: #f44336;
+}
+
+.btn-add {
+    background: #35ac39;
+    display: block;
+    text-align: center;
+    width: fit-content;
+    margin: 30px auto;
+}
+
+.form-container {
+    max-width: 500px;
+    margin: 30px auto;
+    background: white;
+    padding: 30px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+}
+
+.btn-save {
+    background: #2196f3;
+    color: white;
+}
+
+.btn-cancel {
+    background: #696666;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .navbar a {
+        display: block;
+        margin: 10px 0;
+    }
+}
